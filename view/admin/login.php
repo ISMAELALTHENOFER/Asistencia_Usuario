@@ -1,3 +1,4 @@
+<?php require '../../config/Conexion.php'; ?>
 <!DOCTYPE html>
 <html>
 
@@ -15,7 +16,6 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="../../library/css/AdminLTE.min.css">
     <!-- iCheck -->
-    <link rel="stylesheet" href="../../library/css/blue.css">
     <link rel="shortcut icon" href="../../library/files/check-list.png">
 
 </head>
@@ -24,10 +24,10 @@
 
     <div class="login-box">
         <div class="login-logo">
-            <a href="#"><b>Asistencias</b> Admin</a>
-        </div><!-- /.login-logo -->
+            <a href="#"><b>Asistencias admin </b> </a>
+        </div>
         <div class="login-box-body">
-            <p class="login-box-msg">Ingrese sus datos de Acceso</p>
+            <p class="login-box-msg">Ingrese sus credenciales</p>
             <form method="post" id="frmAcceso">
                 <div class="form-group has-feedback">
                     <input type="text" id="logina" name="logina" class="form-control" placeholder="Ingrese Usuario">
@@ -38,17 +38,17 @@
                     <span class="fa fa-key form-control-feedback"></span>
                 </div>
                 <div class="row">
-                    <div class="col-xs-8">
+                    <div class="col-xs-4">
 
-                    </div><!-- /.col -->
+                    </div>
                     <div class="col-xs-4">
                         <button type="submit" class="btn btn-primary btn-block btn-flat"> Ingresar</button>
-                    </div><!-- /.col -->
+                    </div>
                 </div>
             </form>
 
-        </div><!-- /.login-box-body -->
-    </div><!-- /.login-box -->
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="../../library/js/jquery-3.1.1.min.js"></script>

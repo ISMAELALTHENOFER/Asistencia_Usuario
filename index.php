@@ -16,7 +16,6 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="library/css/AdminLTE.min.css">
     <!-- iCheck -->
-    <link rel="stylesheet" href="library/css/blue.css">
     <link rel="shortcut icon" href="library/files/check-list.png">
 
 </head>

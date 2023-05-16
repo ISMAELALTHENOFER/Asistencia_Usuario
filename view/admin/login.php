@@ -28,13 +28,13 @@
         </div>
         <div class="login-box-body">
             <p class="login-box-msg">Ingrese sus credenciales</p>
-            <form method="post" id="frmAcceso">
+            <form method="post" id="AccesoAdmin">
                 <div class="form-group has-feedback">
-                    <input type="text" id="logina" name="logina" class="form-control" placeholder="Ingrese Usuario">
+                    <input type="text" id="logAdmin" name="logAdmin" class="form-control" placeholder="Ingrese Usuario">
                     <span class="fa fa-user form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
-                    <input type="password" id="clavea" name="clavea" class="form-control" placeholder="ingrese Password">
+                    <input type="password" id="claveadmin" name="claveadmin" class="form-control" placeholder="ingrese Password">
                     <span class="fa fa-key form-control-feedback"></span>
                 </div>
                 <div class="row">

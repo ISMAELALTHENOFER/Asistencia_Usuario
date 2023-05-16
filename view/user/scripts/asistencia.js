@@ -22,10 +22,10 @@ function regis_asis(e) {
 	limpiar();
 }
 
-//funcion limpiar el campo despues de 4 seg 
+//funcion limpiar el campo despues de 3 seg 
 function limpiar() {
-	$("#codigo_persona").val("");
-	setTimeout('document.location.reload()', 4000);
+	$("#cod_persona").val("");
+	setTimeout('document.location.reload()',3000);
 
 }
 init();

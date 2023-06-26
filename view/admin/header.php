@@ -20,7 +20,6 @@
    <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
    <link rel="stylesheet" href="../../library/css/_all-skins.min.css">
-   <!-- <link rel="apple-touch-icon" href="../public/img/apple-touch-icon.png"> -->
    <link rel="shortcut icon" href="../../library/files/check.jpg">
 
    <!-- DATATABLES -->
@@ -80,7 +79,8 @@
                      <a href="#" class="btn btn-default btn-flat">Perfil</a>
                    </div>
                    <div class="pull-right">
-                     <a href="../ajax/usuario.php?op=salir" class="btn btn-default btn-flat">Salir</a>
+                     <a href="ajax/usuario.php?op=salir" class="btn btn-default btn-flat">Salir</a>
+                     
                    </div>
                  </li>
                </ul>
@@ -98,7 +98,7 @@
          <!-- Sidebar user panel -->
          <div class="user-panel">
            <div class="pull-left image">
-             <img src="../files/usuarios/<?php echo $_SESSION['imagen']; ?>" class="img-circle" style="width: 50px; height: 50px;" alt="User Image">
+             <img src="files/usuarios/" class="img-circle" style="width: 50px; height: 50px;" alt="User Image">
            </div>
            <div class="pull-left info">
              <p><?php echo $_SESSION['nombre']; ?></p>
@@ -110,7 +110,7 @@
            <li class="header">MENÚ DE NAVEGACIÓN</li>
 
 
-           <li><a href="escritorio.php"><i class="fa  fa-dashboard (alias)"></i> <span>Escritorio</span></a></li>
+           <li><a href="homeAdmin.php"><i class="fa  fa-dashboard (alias)"></i> <span>Escritorio</span></a></li>
 
 
            <?php if ($_SESSION['tipousuario'] == 'Administrador') {

@@ -2,7 +2,6 @@
 <html>
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Control | Asistencia</title>
@@ -12,19 +11,15 @@
     <link rel="stylesheet" href="library/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="library/css/font-awesome.css">
-
     <!-- Theme style -->
     <link rel="stylesheet" href="library/css/AdminLTE.min.css">
     <!-- iCheck -->
     <link rel="shortcut icon" href="library/files/check-list.png">
-
 </head>
 
 <body class="hold-transition lockscreen">
-
     <!-- Automatic element centering -->
     <div class="lockscreen-wrapper">
-
         <div class="lockscreen-logo">
             <a href="#"><b></b> ASISTENCIA</a>
         </div>
@@ -37,20 +32,18 @@
             <div class="lockscreen-image">
                 <img src="library/files/check.jpg">
             </div>
-            <!-- /.lockscreen-image -->
 
             <!-- lockscreen credentials (contains the form) -->
             <form action="" class="lockscreen-credentials" name="formulario" id="formulario" method="POST">
                 <div class="input-group">
-                    <input type="text" class="form-control" name="codigo_persona" id="codigo_persona" placeholder="ID de asistencia">
+                    <input type="text" class="form-control" name="cod_persona" id="cod_persona" placeholder="ID de asistencia">
 
                     <div class="input-group-btn">
                         <button type="submit" class="btn btn-primary"><i class="fa fa-arrow-right text-muted"></i></button>
                     </div>
                 </div>
             </form>
-            <!-- /.lockscreen credentials -->
-
+    
         </div>
         <!-- /.lockscreen-item -->
         <div class="help-block text-center">
@@ -64,7 +57,6 @@
         </div>
     </div>
     <!-- /.center -->
-
 
     <!-- jQuery -->
     <script src="library/js/jquery-3.1.1.min.js"></script>
@@ -81,7 +73,7 @@
 </html>
 
 <!-- ----------------------------------------------------- -->
-
+<!-- 
 <script>
     function geoloc() {
         d = document.getElementById("mapa");
@@ -122,4 +114,4 @@
 <div id="geoloc">
     <button onclick="geoloc()">Ver geolocalización.</button><br />
     <div id="mapa"></div>
-</div>
+</div> -->

@@ -1,4 +1,4 @@
-<?php require '../../config/Conexion.php'; ?>
+<?php require '../../config/Validation.php'; ?>
 <!DOCTYPE html>
 <html>
 
@@ -12,16 +12,13 @@
     <link rel="stylesheet" href="../../library/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="../../library/css/font-awesome.css">
-
     <!-- Theme style -->
     <link rel="stylesheet" href="../../library/css/AdminLTE.min.css">
     <!-- iCheck -->
     <link rel="shortcut icon" href="../../library/files/check-list.png">
-
 </head>
 
 <body class="hold-transition login-page">
-
     <div class="login-box">
         <div class="login-logo">
             <a href="#"><b>Asistencias admin </b> </a>
@@ -34,7 +31,7 @@
                     <span class="fa fa-user form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
-                    <input type="password" id="claveadmin" name="claveadmin" class="form-control" placeholder="ingrese Password">
+                    <input type="password" id="claveadmin" name="claveadmin" class="form-control" placeholder="Ingrese Contraseña">
                     <span class="fa fa-key form-control-feedback"></span>
                 </div>
                 <div class="row">
